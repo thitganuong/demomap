@@ -112,7 +112,7 @@
         <script src="http://debug.phonegap.com/target/target-script-min.js#webspherenotes.com"></script>
     
   </head>
-  <body >
+  <body onLoad="displayCurrentLocation()">
   	<p>
 	  	<input type="text" name="address" id="address" />
 	  	<input type="button" id="getLocation" onclick="addMarkerForAddress()" value="Get Location"/>
